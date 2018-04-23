@@ -1,0 +1,58 @@
+body {
+   background-image: url("./images/note.jpg");
+   background-size: cover;
+   min-height: 100vh;
+}
+
+
+.app {
+	width: 80%;
+	min-width: 100px;
+	margin: 30px auto;
+	background: darkgray;
+	padding-bottom: 20px;
+}
+
+img {
+	border-radius: 50%;
+	border-color: black;
+	border-style: solid;
+	border: 5px;
+	
+	height: 120px;
+	
+	float: left;
+	margin: 0 30px;
+	
+}
+
+form{
+	background: #443a3a;
+}
+
+
+input {
+	height: 40px;
+	margin: 20px;
+}
+
+.contactItem {
+	/*padding: 10px;*/
+	margin: 10px;
+	background: gray;
+	width: 30%;
+	max-width: 400px;
+	display: inline-block;
+	
+}
+
+button {
+	height: 40px;
+	cursor: pointer;
+	padding: 0 20px;
+	margin: 10px 20px;
+}
+
+button:hover {
+	color: darkgray;
+}
